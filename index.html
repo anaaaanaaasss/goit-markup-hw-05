@@ -475,5 +475,46 @@
       </div>
     </footer>
     <!-- #endregion Footer -->
+
+    <!-- #region modal-overlay -->
+
+    <div class="modal-overlay is-open">
+      <div class="container modal">
+        <form>
+          <p class="modal-title">
+            Leave your contacts and we will call you back
+          </p>
+          <label
+            >Name
+            <input type="name" />
+          </label>
+          <label
+            >Phone
+            <input type="tel" />
+          </label>
+          <label
+            >Email
+            <input type="email" />
+          </label>
+          <label
+            >Comment
+            <textarea
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="accept"
+              value="I accept the terms and conditions of the Privacy Policy"
+            />
+          </label>
+        </form>
+        <button class="button" type="submit">Send</button>
+      </div>
+    </div>
+    <!-- #endregion modal-overlay -->
   </body>
 </html>
