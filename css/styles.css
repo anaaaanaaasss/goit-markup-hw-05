@@ -600,6 +600,52 @@ img {
 .socmedia-list-link:focus {
     background-color: #31d0aa;
 }
+
+.footer-label {
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.16;
+        color: #8e8f99;
+        margin-bottom: 8px;
+    }
+
+    .footer-imput {
+        border: 1px solid #fff;
+            border-radius: 4px;
+            width: 264px;
+            height: 40px;
+        margin-top: 4px;
+        padding: 16px;
+        outline-color: #31d0aa;
+        background-color: #2e2f42;;
+    }
+
+
+    .footer-btn-wrapper {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .footer-btn {
+        display: block;
+        border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
+        background-color: #4d5ae5;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #fff;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        margin-top: 24px;
+    
+
+}
 /* #endregion Footer */
 
 
