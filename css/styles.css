@@ -43,9 +43,10 @@ h1, h2, h3, h4, h5, h6, p {
     color:#f4f4fd;
 }
 
-button {
+.button {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
+    border: none;
 }
 
 img {
@@ -530,6 +531,7 @@ img {
 }
 
 .footer-left,
+.footer-center,
 .footer-right {
     display: flex;
     flex-direction: column;
@@ -598,8 +600,12 @@ img {
 .socmedia-list-link:focus {
     background-color: #31d0aa;
 }
+/* #endregion Footer */
+
 
 /* #region modal-overlay  */
+
+
 
 .modal-overlay {
     background: rgba(46, 47, 66, 0.7);
@@ -631,19 +637,90 @@ img {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
     overflow-y: auto;
+    padding: 24px;
 }
+
+.personal-info {
+    display: flex;
+        align-items: stretch;
+        justify-content: center;
+        flex-direction: column;
+        gap: 8px;
+}
+
+.form-btn-exit {
+    display: block;
+border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    justify-content: flex-end;
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
 
 .modal-title {
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-top: 24px;
+    margin-bottom: 16px;
 }
 
-.button {}
+.form-label {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    color: #8e8f99;
+    margin-bottom: 8px;
+}
+
+.form-imput { 
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    margin-top: 4px;
+    padding: 16px;
+    outline-color: #4d5ae5;
+}
+
+.form-commet-area {
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 100%;
+    height: 120px;
+    padding: 16px;
+    resize: none; 
+    outline-color: #4d5ae5;
+}
+
+
+.form-btn-wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+.form-btn {
+    display: block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 24px;
+}
 
 /* #endregion modal-overlay  */
 
-/* #endregion Footer */
