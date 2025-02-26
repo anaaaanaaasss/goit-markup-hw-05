@@ -690,6 +690,8 @@ img {
 /* #region Modal */
 
 /* Modal Backdrop */
+
+}
 .modal-backdrop {
     position: fixed;
     top: 0;
@@ -707,9 +709,10 @@ img {
     z-index: 1000;
 }
 
-.modal-backdrop.is-visible {
+.modal-backdrop.is-open {
     opacity: 1;
     visibility: visible;
+    pointer-events: auto;
 }
 
 /* Modal Window */
